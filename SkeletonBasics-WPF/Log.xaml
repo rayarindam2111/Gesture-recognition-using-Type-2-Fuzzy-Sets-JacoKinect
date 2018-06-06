@@ -1,0 +1,6 @@
+﻿<Window x:Class="Microsoft.Samples.Kinect.SkeletonBasics.Log"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Log Viewer for Kinect Jaco Control" ResizeMode="CanResize" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Width="970" Height="735" Name="logWindow" SizeChanged="logWindow_SizeChanged" Left="900" Top="300" Closing="logWindow_Closing" Icon="/SkeletonBasics-WPF;component/Images/CheckedHover.png" Loaded="logWindow_Loaded">
+    <ListBox Name="lstLog" FontSize="14" Padding="2" HorizontalContentAlignment="Left" />
+</Window>

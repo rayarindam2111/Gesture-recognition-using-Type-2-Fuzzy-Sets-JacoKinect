@@ -1,0 +1,13 @@
+Frame1
+Shoulder180_Elbow180
+
+Frame2
+Shoulder90_Elbow180
+
+Frame3
+Shoulder90_Elbow90
+
+Subject1 Kaustuv
+Subject2 Arindam
+Subject3 Priya Kapil 3rd Year B.Tech.in ECE RTU
+Subject4 Pradeep Giri 3rd Year Btech in ECE RTU 

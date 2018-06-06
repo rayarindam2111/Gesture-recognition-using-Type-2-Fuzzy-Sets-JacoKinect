@@ -1,0 +1,20 @@
+﻿<Window x:Class="Microsoft.Samples.Kinect.SkeletonBasics.taskChoose"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MODE Selector" ResizeMode="CanMinimize" WindowStyle="SingleBorderWindow" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="257" Width="242" Icon="/SkeletonBasics-WPF;component/Images/CheckedNormal.png" Loaded="Window_Loaded" Unloaded="Window_Unloaded" Top="30" Left="905">
+    <Grid Height="202" Width="213">
+        
+        <GroupBox Header="Select MODE" Height="190" HorizontalAlignment="Left" Margin="12,12,0,0" Name="grpModeSelect" VerticalAlignment="Top" Width="189"></GroupBox>
+        <Grid Margin="12,29,12,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*" />
+                <ColumnDefinition Width="212*" />
+            </Grid.ColumnDefinitions>
+            <RadioButton Content="Create Dataset" Height="16" HorizontalAlignment="Left" Margin="24,15,0,0" Name="rdoDataset" VerticalAlignment="Top" Grid.ColumnSpan="2" />
+            <RadioButton Content="Jaco Task Training" Height="16" HorizontalAlignment="Left" Margin="24,45,0,0" Name="rdoJacoTrain" VerticalAlignment="Top" Grid.ColumnSpan="2" />
+            <RadioButton Content="Run System" Height="16" HorizontalAlignment="Left" Margin="24,75,0,0" Name="rdorunSystem" VerticalAlignment="Top" Grid.ColumnSpan="2" />
+            <RadioButton Content="Pause" Height="16" HorizontalAlignment="Left" Margin="24,106,0,0" Name="rdoPause" VerticalAlignment="Top" Grid.ColumnSpan="2" Foreground="Red" IsChecked="True" />
+            <Button Content="Apply" Height="28" HorizontalAlignment="Left" Margin="82,139,0,0" Name="btnModeApply" VerticalAlignment="Top" Width="77" Grid.Column="1" Click="btnModeApply_Click" />
+        </Grid>
+    </Grid>
+</Window>

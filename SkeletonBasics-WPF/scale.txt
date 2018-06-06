@@ -1,0 +1,21 @@
+
+X: 0m
+YminJaco : -0.849m
+ZminJaco: 0.344m
+Horizontal
+
+YmaxJaco: 0
+ZmaxJaco : 1.15m
+VerticalUp
+
+
+xminHand: 0.45
+yminHand:0.42
+Horizontal
+
+xmaxHand: 0.069
+ymaxHand: -.05
+VerticalDown
+
+Hand X to Jaco Y (-2.2)
+Hand Y to Jaco Z (-1.7)
